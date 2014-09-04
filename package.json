@@ -1,7 +1,7 @@
 {
   "name": "option-tree-navigate",
   "description": "navigate an object tree",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "repository": {
     "url": "nrw/option-tree-navigate"
   },
@@ -14,6 +14,5 @@
   "dependencies": {
     "tape": "2.x.x"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
