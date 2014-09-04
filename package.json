@@ -1,0 +1,19 @@
+{
+  "name": "option-tree-navigate",
+  "description": "navigate an object tree",
+  "version": "0.1.0",
+  "repository": {
+    "url": "nrw/option-tree-navigate"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "tape test/*.js",
+    "watch": "nodemon -q -x 'tape test/*.js' | tap-colorize"
+  },
+  "dependencies": {
+    "tape": "2.x.x"
+  },
+  "devDependencies": {
+  }
+}
