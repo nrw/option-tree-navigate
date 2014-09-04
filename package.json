@@ -1,7 +1,7 @@
 {
   "name": "option-tree-navigate",
   "description": "navigate an object tree",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "repository": {
     "url": "nrw/option-tree-navigate"
   },
