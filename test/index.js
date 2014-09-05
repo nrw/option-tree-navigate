@@ -225,3 +225,17 @@ test('allows custom option field', function (t) {
   t.equal(tree.readPath([0, 1]).id, 'z')
   t.end()
 })
+
+test('exposes tree', function (t) {
+  var data = [{
+    id: 'x',
+    _opts: [
+      {id: 'y'},
+      {id: 'z'}
+    ]
+  }]
+  tree = NavTree(data)
+
+  t.equal(tree._tree, data)
+  t.end()
+})

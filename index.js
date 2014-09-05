@@ -22,7 +22,11 @@ function OptionTree (tree, opts) {
     childNodes: childNodes.bind(null, tree, opts),
     children: childNodes.bind(null, tree, opts), // alias
 
-    has: has.bind(null, tree, opts)
+    // query nodes
+    has: has.bind(null, tree, opts),
+
+    // for plugins
+    _tree: tree
   }
 }
 
